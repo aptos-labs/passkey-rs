@@ -24,6 +24,7 @@ typeshare = "1"
 idna = "0.2.0"
 url = "2.0.0"
 coset = "0.3"
+indexmap = "2.0.1"
 
 [dev-dependencies]
 coset = "0.3"

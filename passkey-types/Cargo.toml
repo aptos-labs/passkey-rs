@@ -19,13 +19,12 @@ serialize_bytes_as_base64_string = []
 bitflags = "1"
 ciborium = "0.2"
 data-encoding = "2"
+indexmap = { version = "=2.0.1", features = ["serde"] }
 rand = "0.8"
 serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
 sha2 = "0.10"
 strum = { version = "0.24", features = ["derive"] }
 typeshare = "1"
 # TODO: investigate rolling our own IANA listings and COSE keys
 coset = "0.3"
-
-[dev-dependencies]
-serde_json = "1"
